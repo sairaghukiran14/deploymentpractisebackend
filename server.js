@@ -20,7 +20,7 @@ mongoose
   .catch((err) => console.log(err));
 
 app.get("/", (req, res) => {
-  res.send("Welcome");
+  res.send("Welcome to deployment server");
 });
 
 app.post("/register", async (req, res) => {
