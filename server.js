@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 //connection with mongoose connection
 mongoose
   .connect(
-    "mongodb+srv://raghukiran1414:Raghu%40123@cluster0.m82pxwz.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://raghukiran1414:Raghu%40123@cluster0.m82pxwz.mongodb.net/deploymentpractise?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("DB connected");
